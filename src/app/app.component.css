@@ -1,0 +1,6 @@
+app-actions {
+    z-index: 9999;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

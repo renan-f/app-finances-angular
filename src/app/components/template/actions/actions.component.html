@@ -1,0 +1,10 @@
+<div class="main">
+    <div *ngIf="actionsActive == true" class="actions">
+        <ul>
+            <li><a>Receita</a></li>
+            <li><a>Despesa</a></li>
+            <li><a>Categoria</a></li>
+        </ul>
+    </div>
+    <button (click)="mudarDisplay()">+</button>
+</div>
