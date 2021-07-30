@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-actions',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ActionsComponent implements OnInit {
   actionsActive: boolean = false;
+  faPlus = faPlus;
+  faMinus = faMinus;
 
   constructor() { }
 

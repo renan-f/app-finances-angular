@@ -6,5 +6,8 @@
             <li><a>Categoria</a></li>
         </ul>
     </div>
-    <button (click)="mudarDisplay()">+</button>
+    <a class="button-actions" (click)="mudarDisplay()">
+        <fa-icon *ngIf="actionsActive == false" [icon]="faPlus"></fa-icon>
+        <fa-icon *ngIf="actionsActive == true" [icon]="faMinus"></fa-icon>
+    </a>
 </div>
