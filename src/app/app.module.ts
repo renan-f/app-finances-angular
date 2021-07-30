@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { ActionsComponent } from './components/template/actions/actions.component';
+import { TransactionsComponent } from './components/transactions/transactions.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ActionsComponent
+    ActionsComponent,
+    TransactionsComponent
   ],
   imports: [
     BrowserModule,

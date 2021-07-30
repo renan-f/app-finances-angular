@@ -1,3 +1,7 @@
+app-transactions {
+    display: flex;
+}
+
 app-actions {
     z-index: 9999;
     position: fixed;
