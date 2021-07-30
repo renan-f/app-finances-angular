@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 90vw;
+    max-width: 750px;
+    height: 60vh;
+    background: cornflowerblue;
+    border-radius: 25px;
+    margin: 15vh auto auto;
+}
+
+.main>.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>.title>h1 {
+    margin: 0.5em auto;
+    font-size: 2.2em;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 15px;
+}
+
+.cabecalho>div>h4 {
+    font-size: 1.5em;
+}
+
+.movimentacoes {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.movimentacoes>li {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.movimentacao {
+    color: white;
+}

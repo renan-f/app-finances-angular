@@ -1,0 +1,46 @@
+<div class="main">
+    <div class="title">
+        <h1>Transações</h1>
+    </div>
+    <ul>
+        <div class="cabecalho">
+            <div>
+                <h4>Descrição</h4>
+            </div>
+            <div>
+                <h4>Categoria</h4>
+            </div>
+            <div>
+                <h4>Data</h4>
+            </div>
+            <div>
+                <h4>Tipo</h4>
+            </div>
+            <div>
+                <h4>Valor</h4>
+            </div>
+        </div>
+        <div class="movimentacoes">
+            <li *ngFor="let transaction of transactions">
+                <div class="movimentacao">
+                    <h4>{{transaction.description}}</h4>
+                </div>
+                <div class="movimentacao">
+                    <h4>{{transaction.category}}</h4>
+                </div>
+                <div class="movimentacao">
+                    <h4>{{transaction.date}}</h4>
+                </div>
+                <div class="movimentacao">
+                    <h4>{{transaction.type}}</h4>
+
+                </div>
+                <div class="movimentacao">
+                    <h4>{{transaction.value}}</h4>
+                </div>
+
+
+            </li>
+        </div>
+    </ul>
+</div>
